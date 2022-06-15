@@ -1,0 +1,87 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body{
+    background-color: #C3694D;
+}
+
+/* Bij de header kijk ik of ik die kan gebruiken we voor de afbeelding van de reis */
+header {
+    background-color: black;
+    background-size: cover;
+
+    background-position: center;
+    min-height: 250px;
+    color: white;
+}
+
+/* Hiermee verander ik de Font style naar mijn keuze. */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    font-size: large;
+    background-color: #DF7C21;
+}
+nav ul li {
+    padding-left: 5px;
+}
+
+/* Dit hier is allemaal voor de custom kleur en website heb het geprobeerd in sass niet helemaal gelukt. */
+.bg-primary{
+    background-color: #DF7C21;
+}
+
+header .container {
+    padding-top: 90px;
+}
+
+.video-container {
+    padding-top: 30px !important;
+}
+
+#article .card .card-body{
+    color: white;
+    background: linear-gradient(180deg,rgba(0,0,0,.05),rgba(0,0,0,.35) 8%);
+}
+#article img {
+    max-width: 100%;
+    height: auto;
+}
+.read {
+    margin-bottom: -10px;
+}
+
+.colum {
+    margin-bottom: 30px;
+}
+
+.card-body h3 {
+    font-weight: bold;
+}
+.card-body a {
+    color: white;
+}
+.shadowing{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    padding: 25px;
+}
+article {
+    background-size: cover; background-position: center;
+}
+.maxw {
+    margin-right: 20px;
+}
+
+/* Custom Footer  */
+.footer{
+    position: absolute;
+    color: white;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #DF7C21;
+    padding: 0;
+    bottom: 0;
+}
